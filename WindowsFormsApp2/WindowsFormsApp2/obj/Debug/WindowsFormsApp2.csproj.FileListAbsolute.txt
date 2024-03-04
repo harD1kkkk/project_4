@@ -1,0 +1,17 @@
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Myspace.PlayerVSplayer.resources
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Myspace.BattlefieldPlayer.resources
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Myspace.BMenu.resources
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Myspace.Attacks.resources
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Myspace.PlayerVSPlayerBattle.resources
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Myspace.Shop.resources
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Myspace.StatisticPlayer.resources
+C:\Users\student\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ChoseHero.resources
