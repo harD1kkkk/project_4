@@ -213,6 +213,7 @@
             this.label12.Size = new System.Drawing.Size(82, 45);
             this.label12.TabIndex = 13;
             this.label12.Text = "0:00";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // PlayerVSPlayerBattle
             // 

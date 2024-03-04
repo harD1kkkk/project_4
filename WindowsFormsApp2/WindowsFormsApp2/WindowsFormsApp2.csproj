@@ -62,11 +62,11 @@
     <Compile Include="Boss.cs" />
     <Compile Include="BotLogic.cs" />
     <Compile Include="BotVsBot.cs" />
-    <Compile Include="ChoseHero.cs">
+    <Compile Include="ChoseHeroDialoge.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChoseHero.Designer.cs">
-      <DependentUpon>ChoseHero.cs</DependentUpon>
+    <Compile Include="ChoseHeroDialoge.Designer.cs">
+      <DependentUpon>ChoseHeroDialoge.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -79,11 +79,18 @@
     <Compile Include="BLocation.cs" />
     <Compile Include="Mage.cs" />
     <Compile Include="Multplayer.cs" />
-    <Compile Include="PlayerVSplayer.cs">
+    <Compile Include="ChooseHero.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PlayerVSplayer.Designer.cs">
-      <DependentUpon>PlayerVSplayer.cs</DependentUpon>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>ChooseHero.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerVSBot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerVSBot.Designer.cs">
+      <DependentUpon>PlayerVSBot.cs</DependentUpon>
     </Compile>
     <Compile Include="PlayerVSPlayerBattle.cs">
       <SubType>Form</SubType>
@@ -116,14 +123,17 @@
     <EmbeddedResource Include="BattlefieldPlayer.resx">
       <DependentUpon>BattlefieldPlayer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChoseHero.resx">
-      <DependentUpon>ChoseHero.cs</DependentUpon>
+    <EmbeddedResource Include="ChoseHeroDialoge.resx">
+      <DependentUpon>ChoseHeroDialoge.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PlayerVSplayer.resx">
-      <DependentUpon>PlayerVSplayer.cs</DependentUpon>
+    <EmbeddedResource Include="ChooseHero.resx">
+      <DependentUpon>ChooseHero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerVSBot.resx">
+      <DependentUpon>PlayerVSBot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlayerVSPlayerBattle.resx">
       <DependentUpon>PlayerVSPlayerBattle.cs</DependentUpon>

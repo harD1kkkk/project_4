@@ -15,19 +15,19 @@ namespace Myspace
         public StatisticPlayer()
         {
             InitializeComponent();
-            label6.Text += $"{PlayerVSplayer.player1.Name}";
-            label1.Text += $"{PlayerVSplayer.player1.Health}";
-            label2.Text += $"{PlayerVSplayer.player1.ResistanceToPhysical}";
-            label3.Text += $"{PlayerVSplayer.player1.ResistanceToMagical}";
-            label4.Text += $"{PlayerVSplayer.player1.CriticalChance}";
-            label5.Text += $"{PlayerVSplayer.player1.AttackPower}";
+            label6.Text += $"{ChooseHero.player1.Name}";
+            label1.Text += $"{ChooseHero.player1.Health}";
+            label2.Text += $"{ChooseHero.player1.ResistanceToPhysical}";
+            label3.Text += $"{ChooseHero.player1.ResistanceToMagical}";
+            label4.Text += $"{ChooseHero.player1.CriticalChance}";
+            label5.Text += $"{ChooseHero.player1.AttackPower}";
 
-            label12.Text += $"{PlayerVSplayer.player2.Name}";
-            label11.Text += $"{PlayerVSplayer.player2.Health}";
-            label10.Text += $"{PlayerVSplayer.player2.ResistanceToPhysical}";
-            label9.Text += $"{PlayerVSplayer.player2.ResistanceToMagical}";
-            label8.Text += $"{PlayerVSplayer.player2.CriticalChance}";
-            label7.Text += $"{PlayerVSplayer.player2.AttackPower}";
+            label12.Text += $"{ChooseHero.player2.Name}";
+            label11.Text += $"{ChooseHero.player2.Health}";
+            label10.Text += $"{ChooseHero.player2.ResistanceToPhysical}";
+            label9.Text += $"{ChooseHero.player2.ResistanceToMagical}";
+            label8.Text += $"{ChooseHero.player2.CriticalChance}";
+            label7.Text += $"{ChooseHero.player2.AttackPower}";
         }
 
       

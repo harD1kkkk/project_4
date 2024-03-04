@@ -33,7 +33,7 @@ namespace Myspace
             }
             else if (playerChoice == 1)
             {
-                Form playerVSplayer = new PlayerVSplayer();
+                Form playerVSplayer = new ChooseHero(1);
                 playerVSplayer.StartPosition = FormStartPosition.Manual;
                 playerVSplayer.Height = this.Height;
                 playerVSplayer.Width = this.Width;
@@ -43,7 +43,13 @@ namespace Myspace
             }
             else if (playerChoice == 2)
             {
-                StartBot.startBot();
+                Form playerVSplayer = new ChooseHero(2);
+                playerVSplayer.StartPosition = FormStartPosition.Manual;
+                playerVSplayer.Height = this.Height;
+                playerVSplayer.Width = this.Width;
+                playerVSplayer.Location = this.Location;
+                playerVSplayer.Show();
+                this.Hide();
             }
             else if (playerChoice == 3)
             {
