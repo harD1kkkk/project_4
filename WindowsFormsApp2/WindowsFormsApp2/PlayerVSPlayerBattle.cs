@@ -44,7 +44,7 @@ namespace Myspace
 
             if (BattlefieldPlayer.ChoseMap == 1)
             {
-                this.BackgroundImage = System.Drawing.Image.FromFile("C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\assets\\jpg");
+                this.BackgroundImage = System.Drawing.Image.FromFile("C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\assets\\1622136672_14-oir_mobi-p-pole-boya-priroda-krasivo-foto-15.jpg");
             }
             else if (BattlefieldPlayer.ChoseMap == 2)
             {
@@ -98,20 +98,13 @@ namespace Myspace
         private void button1_Click(object sender, EventArgs e)
         {
             timer1.Start();
-            if (ChooseHero.player1.Health <= 0 || ChooseHero.player2.Health <= 0)
+            if (countShop == 5)
             {
-                if (ChooseHero.player1.Health <= 0)
-                {
-                    MessageBox.Show("Player 2 has won the battle!", "Won");
-                    return;
-                }
-                else if (ChooseHero.player2.Health <= 0)
-                {
-                    MessageBox.Show("Player 1 has won the battle!", "Won");
-                    return;
-                }
+                Form shop = new Shop();
+                shop.StartPosition = FormStartPosition.CenterScreen;
+                shop.ShowDialog();
+                countShop = 0;
             }
-
             if (currentPlayer == 1)
             {
                 Form attacks = new Attacks();
@@ -206,7 +199,25 @@ namespace Myspace
             }
 
 
-
+            if (ChooseHero.player1.Health <= 0 || ChooseHero.player2.Health <= 0)
+            {
+                if (ChooseHero.player1.Health <= 0)
+                {
+                    MessageBox.Show("Player 2 has won the battle!", "Won");
+                    BMenu menu = new BMenu();
+                    menu.Show();
+                    this.Close();
+                    return;
+                }
+                else if (ChooseHero.player2.Health <= 0)
+                {
+                    MessageBox.Show("Player 1 has won the battle!", "Won");
+                    BMenu menu = new BMenu();
+                    menu.Show();
+                    this.Close();
+                    return;
+                }
+            }
             currentPlayer = (currentPlayer % 2) + 1;
             label10.Text = $"Round: {round++}";
             label10.Visible = true;
@@ -214,13 +225,7 @@ namespace Myspace
             countShop++;
 
 
-            if (countShop == 5)
-            {
-                Form shop = new Shop();
-                shop.StartPosition = FormStartPosition.CenterScreen;
-                shop.ShowDialog();
-                countShop = 0;
-            }
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -316,6 +321,11 @@ namespace Myspace
         private void label12_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+      
         }
     }
 

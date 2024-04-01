@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\student\\source\\repos\\windowsformsapp2\\windowsformsapp2\\playervsbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\playervsbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\windowsformsapp2\\playervsbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\playervsbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\windowsformsapp2\\battlefieldplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\battlefieldplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\windowsformsapp2\\battlefieldplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\battlefieldplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\windowsformsapp2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\windowsformsapp2\\playervsplayerbattle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\playervsplayerbattle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\windowsformsapp2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\windowsformsapp2\\playervsplayerbattle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E03CF9D-0767-4616-BD33-F793ACD86B03}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\playervsplayerbattle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1680,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerVSBot.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\PlayerVSBot.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\PlayerVSBot.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\PlayerVSBot.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\PlayerVSBot.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwG8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:31:34.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BattlefieldPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\BattlefieldPlayer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\BattlefieldPlayer.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\BattlefieldPlayer.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\BattlefieldPlayer.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAtwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:09:37.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BattlefieldPlayer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\BattlefieldPlayer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\BattlefieldPlayer.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\BattlefieldPlayer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp2\\BattlefieldPlayer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:09:35.773Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\Menu.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\Menu.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\Menu.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\Menu.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:43:08.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\Menu.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\Menu.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp2\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:43:07.016Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerVSBot.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\PlayerVSBot.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\PlayerVSBot.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\PlayerVSBot.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp2\\PlayerVSBot.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:31:32.407Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerVSPlayerBattle.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\PlayerVSPlayerBattle.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\PlayerVSPlayerBattle.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\PlayerVSPlayerBattle.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\PlayerVSPlayerBattle.cs",
+              "ViewState": "AQIAAAMBAAAAAAAAAAAcwBIBAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:30:00.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerVSPlayerBattle.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\PlayerVSPlayerBattle.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\PlayerVSPlayerBattle.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\PlayerVSPlayerBattle.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp2\\PlayerVSPlayerBattle.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:27:02.992Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

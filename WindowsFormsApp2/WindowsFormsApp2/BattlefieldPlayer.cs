@@ -36,15 +36,14 @@ namespace Myspace
             }
             else if (BMenu.Chose == 2)
             {
-
-            }
-            else if (BMenu.Chose == 3)
-            {
-
-            }
-            else if (BMenu.Chose == 4)
-            {
-
+                BLocation.Storm(ChooseHero.mage1, ChooseHero.mage2, ChooseHero.archer1, ChooseHero.archer2, ChooseHero.warrior1, ChooseHero.warrior2);
+                Form playerVSplayerBattle = new PlayerVSBot();
+                playerVSplayerBattle.StartPosition = FormStartPosition.Manual;
+                playerVSplayerBattle.Height = this.Height;
+                playerVSplayerBattle.Width = this.Width;
+                playerVSplayerBattle.Location = this.Location;
+                playerVSplayerBattle.Show();
+                this.Hide();
             }
 
         }
@@ -79,14 +78,6 @@ namespace Myspace
                 playerVSplayerBattle.Show();
                 this.Hide();
             }
-            else if (BMenu.Chose == 3)
-            {
-
-            }
-            else if (BMenu.Chose == 4)
-            {
-
-            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -105,15 +96,14 @@ namespace Myspace
             }
             else if (BMenu.Chose == 2)
             {
-
-            }
-            else if (BMenu.Chose == 3)
-            {
-
-            }
-            else if (BMenu.Chose == 4)
-            {
-
+                BLocation.Desert(ChooseHero.mage1, ChooseHero.mage2, ChooseHero.archer1, ChooseHero.archer2, ChooseHero.warrior1, ChooseHero.warrior2);
+                Form playerVSplayerBattle = new PlayerVSBot();
+                playerVSplayerBattle.StartPosition = FormStartPosition.Manual;
+                playerVSplayerBattle.Height = this.Height;
+                playerVSplayerBattle.Width = this.Width;
+                playerVSplayerBattle.Location = this.Location;
+                playerVSplayerBattle.Show();
+                this.Hide();
             }
         }
     }

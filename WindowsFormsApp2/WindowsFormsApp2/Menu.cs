@@ -51,14 +51,6 @@ namespace Myspace
                 playerVSplayer.Show();
                 this.Hide();
             }
-            else if (playerChoice == 3)
-            {
-                BotVsBot.botVsBot();
-            }
-            else if (playerChoice == 4)
-            {
-                Levels.levels();
-            }
 
         }
 

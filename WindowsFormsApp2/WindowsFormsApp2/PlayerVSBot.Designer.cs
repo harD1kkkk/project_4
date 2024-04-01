@@ -57,6 +57,7 @@
             this.label12.Size = new System.Drawing.Size(82, 45);
             this.label12.TabIndex = 24;
             this.label12.Text = "0:00";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label11
             // 
@@ -79,6 +80,7 @@
             this.label10.Size = new System.Drawing.Size(112, 45);
             this.label10.TabIndex = 23;
             this.label10.Text = "Round";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label8
             // 
@@ -112,6 +114,7 @@
             this.label3.Size = new System.Drawing.Size(84, 18);
             this.label3.TabIndex = 17;
             this.label3.Text = "DAMAGE";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -123,6 +126,7 @@
             this.label2.Size = new System.Drawing.Size(59, 18);
             this.label2.TabIndex = 16;
             this.label2.Text = "NAME";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 

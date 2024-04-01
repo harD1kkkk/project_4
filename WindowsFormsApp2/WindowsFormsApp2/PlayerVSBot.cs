@@ -52,7 +52,7 @@ namespace WindowsFormsApp2
 
             if (BattlefieldPlayer.ChoseMap == 1)
             {
-                this.BackgroundImage = System.Drawing.Image.FromFile("C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\assets\\jpg");
+                this.BackgroundImage = System.Drawing.Image.FromFile("C:\\Users\\student\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\assets\\1622136672_14-oir_mobi-p-pole-boya-priroda-krasivo-foto-15.jpg");
             }
             else if (BattlefieldPlayer.ChoseMap == 2)
             {
@@ -104,23 +104,11 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             timer1.Start();
-            if (ChooseHero.player1.Health <= 0 || ChooseHero.player2.Health <= 0)
-            {
-                if (ChooseHero.player1.Health <= 0)
-                {
-                    MessageBox.Show("Player 2 has won the battle!", "Won");
-                    return;
-                }
-                else if (ChooseHero.player2.Health <= 0)
-                {
-                    MessageBox.Show("Player 1 has won the battle!", "Won");
-                    return;
-                }
-            }
 
-
-                Form attacks = new Attacks();
+         
+            Form attacks = new Attacks();
                 attacks.StartPosition = FormStartPosition.CenterScreen;
                 attacks.ShowDialog();
 
@@ -162,14 +150,28 @@ namespace WindowsFormsApp2
                 label4.Text = $"Health: {ChooseHero.player2.Health}";
                 label11.Text = $"Player1 with HERO:{ChooseHero.player1.Name} attack with DAMAGE: {damageDealt}  Player2 with HERO:{ChooseHero.player2.Name}";
                 label11.Visible = true;
+
             
 
-            if (countShop == 5)
+
+            if (ChooseHero.player1.Health <= 0 || ChooseHero.player2.Health <= 0)
             {
-                Form shop = new Shop();
-                shop.StartPosition = FormStartPosition.CenterScreen;
-                shop.ShowDialog();
-                countShop = 0;
+                if (ChooseHero.player1.Health <= 0)
+                {
+                    MessageBox.Show("Bot has won the battle!", "Defeat");
+                    BMenu menu = new BMenu();
+                    menu.Show();
+                    this.Close();
+                    return;
+                }
+                else if (ChooseHero.player2.Health <= 0)
+                {
+                    MessageBox.Show("Player 1 has won the battle!", "Won");
+                    BMenu menu = new BMenu();
+                    menu.Show();
+                    this.Close();
+                    return;
+                }
             }
 
             currentPlayer = (currentPlayer % 2) + 1;
@@ -177,6 +179,13 @@ namespace WindowsFormsApp2
             label10.Visible = true;
             label7.Text = $"current Player: {currentPlayer}";
             countShop++;
+            if (countShop == 5)
+            {
+                Form shop = new Shop();
+                shop.StartPosition = FormStartPosition.CenterScreen;
+                shop.ShowDialog();
+                countShop = 0;
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -211,12 +220,20 @@ namespace WindowsFormsApp2
                 ChooseHero.player1.ResistanceToPhysical += 3;
                 ChooseHero.player1.ResistanceToMagical += 3;
 
+                label10.Text = $"Round: {round++}";
                 label8.Text = $"Def: 3/{count1}";
                 label11.Text = $"Player1 with HERO:{ChooseHero.player1.Name}  defends and increases resistance";
                 label11.Visible = true;
                 count1++;
                 countShop++;
                 label7.Text = $"current Player: {currentPlayer}";
+                if (countShop == 5)
+                {
+                    Form shop = new Shop();
+                    shop.StartPosition = FormStartPosition.CenterScreen;
+                    shop.ShowDialog();
+                    countShop = 0;
+                }
             }
         }
 
@@ -281,7 +298,6 @@ namespace WindowsFormsApp2
                     label4.Text = $"Health: {ChooseHero.player2.Health}";
                     label11.Text = $"Bot with HERO:{ChooseHero.player2.Name} attack with DAMAGE: {damageDealt}  Player1 with HERO:{ChooseHero.player1.Name}";
                     label11.Visible = true;
-                    label10.Text = $"Round: {round++}";
                 }
 
                 else if (action == 2)
@@ -297,7 +313,59 @@ namespace WindowsFormsApp2
                 count2++;
                 countShop++;
                 currentPlayer = (currentPlayer % 2) + 1;
+
+                if (ChooseHero.player1.Health <= 0 || ChooseHero.player2.Health <= 0)
+                {
+                    if (ChooseHero.player1.Health <= 0)
+                    {
+                        MessageBox.Show("Bot has won the battle!", "Defeat");
+                        BMenu menu = new BMenu();
+                        menu.Show();
+                        this.Close();
+                        return;
+                    }
+                    else if (ChooseHero.player2.Health <= 0)
+                    {
+                        MessageBox.Show("Player 1 has won the battle!", "Won");
+                        BMenu menu = new BMenu();
+                        menu.Show();
+                        this.Close();
+                        return;
+                    }
+                }
+                if (countShop == 5)
+                {
+                    Form shop = new Shop();
+                    shop.StartPosition = FormStartPosition.CenterScreen;
+                    shop.ShowDialog();
+                    countShop = 0;
+                }
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

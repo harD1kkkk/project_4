@@ -51,10 +51,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(-3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 130);
+            this.label1.Size = new System.Drawing.Size(196, 78);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Make your choice:\r\nplayer vs player - 1\r\nplayer vs bot - 2\r\nbot vs bot - 3\r\nLevel" +
-    "s - 4\r\n";
+            this.label1.Text = "Make your choice:\r\nplayer vs player - 1\r\nplayer vs bot - 2\r\n";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
@@ -66,7 +65,7 @@
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // Menu
+            // BMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -75,7 +74,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Name = "Menu";
+            this.Name = "BMenu";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
